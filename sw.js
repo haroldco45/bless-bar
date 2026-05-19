@@ -1,5 +1,5 @@
-const CACHE = 'bless-bar-v1';
-const ASSETS = ['./index.html', './manifest.json'];
+const CACHE = 'bless-bar-v2';
+const ASSETS = ['./index.html', './manifest.json', './poster.jpg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
